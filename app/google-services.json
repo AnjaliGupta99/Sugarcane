@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "32187177753",
+    "firebase_url": "https://sugarcane-4e2cb.firebaseio.com",
+    "project_id": "sugarcane-4e2cb",
+    "storage_bucket": "sugarcane-4e2cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:32187177753:android:0086c043fd604ad8",
+        "android_client_info": {
+          "package_name": "com.example.gupta.sugarcane"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "32187177753-dvksem3ecrgj80hta5l5jpdgvjlg88lc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCT0Sea3ECm8asp-hcWOA0CUgZU-XBTwkg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

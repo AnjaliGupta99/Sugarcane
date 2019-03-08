@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserActivity"
+    android:background="#19212b">
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="119dp"
+        android:layout_height="111dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="53dp"
+        android:layout_marginTop="41dp"
+        android:background="@drawable/background_2"
+        android:text="New deal +"
+        android:textColor="#19212b"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="444dp" />
+
+
+    <Button
+        android:id="@+id/history"
+        android:layout_width="119dp"
+        android:layout_height="112dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/register"
+        android:layout_marginStart="54dp"
+        android:background="@drawable/background_5"
+        android:text="History"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Welcome, Have an awesome day!"
+        android:textColor="#ffffff"/>
+
+</RelativeLayout>

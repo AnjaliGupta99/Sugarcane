@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2b3238"
+    tools:context=".RegistrationActivity">
+
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/create_account_email_pass"
+        android:ems="10"
+        android:hint=" email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#596068"
+        android:textColor="#ffffff"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/email"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/create_account_email_pass"
+        android:ems="10"
+        android:hint=" password"
+        android:inputType="textPassword"
+        android:textColorHint="#596068"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/button_register_create_account"
+        android:text="Create Account"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/loginText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="55dp"
+        android:text="Already have account? Login"
+        android:textColor="#dee2e6" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:text="Get your graphs growing with"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:text="SUGARCANE +"
+        android:textColor="#ffffff"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:text="Create an account now!"
+        android:textColor="#5f4054"/>
+</RelativeLayout>

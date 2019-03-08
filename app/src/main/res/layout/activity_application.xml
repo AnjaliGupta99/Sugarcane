@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ApplicationActivity"
+    android:background="#395966">
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="290dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:background="@drawable/background_4"
+        android:ems="10"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColor="#b5d3de"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="159dp" />
+
+    <EditText
+        android:id="@+id/contact"
+        android:layout_width="290dp"
+        android:layout_height="45dp"
+        android:layout_alignTop="@+id/name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/background_4"
+        android:ems="10"
+        android:inputType="phone"
+        android:textAlignment="center"
+        android:textColor="#b5d3de"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="159dp" />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="290dp"
+        android:layout_height="45dp"
+        android:layout_alignTop="@+id/contact"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/background_4"
+        android:ems="10"
+        android:inputType="textPostalAddress"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="159dp"
+        android:textColor="#b5d3de"/>
+
+    <EditText
+        android:id="@+id/sow"
+        android:layout_width="290dp"
+        android:layout_height="45dp"
+        android:layout_alignTop="@+id/address"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/background_4"
+        android:ems="10"
+        android:inputType="date"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="49dp"
+        android:textColor="#b5d3de"/>
+
+    <EditText
+        android:id="@+id/reap"
+        android:layout_width="290dp"
+        android:layout_height="45dp"
+        android:layout_alignTop="@+id/sow"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/background_4"
+        android:ems="10"
+        android:inputType="date"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="104dp"
+        android:textColor="#b5d3de"/>
+
+
+    <EditText
+        android:id="@+id/area"
+        android:layout_width="290dp"
+        android:layout_height="45dp"
+        android:layout_alignTop="@+id/reap"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/background_4"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="#b5d3de"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="104dp" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="145dp"
+        android:layout_height="37dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="64dp"
+        android:background="@drawable/background_5"
+        android:text="SEND"
+        android:textColor="#ffffff" />
+
+
+
+</RelativeLayout>
